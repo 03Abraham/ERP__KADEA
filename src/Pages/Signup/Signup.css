@@ -1,0 +1,165 @@
+body .signup-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 130vh;
+  width: 100vw;
+  background-color: #F7F7F8;
+}
+body .signup-container .overlap-line {
+  margin-bottom: 50px;
+}
+body .signup-container .sidebar {
+  width: 648px;
+  height: 130vh;
+  background-color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body .signup-container .sidebar .btn-google {
+  display: flex;
+  background-color: rgb(252, 250, 250);
+  color: black;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+body .signup-container .sidebar .Or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 22px;
+  top: 475px;
+  width: 348px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body .signup-container .sidebar .Or .overlap-group {
+  height: 22px;
+}
+body .signup-container .sidebar .Or .line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1px;
+  left: 0;
+  top: 10px;
+  width: 348px;
+}
+body .signup-container .sidebar .Or .line .line1 {
+  height: 1px;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: -1px;
+  width: 151;
+}
+body .signup-container .sidebar .Or .line .line2 {
+  height: 1px;
+  left: 197px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: -1px;
+  width: 151;
+}
+body .signup-container .sidebar .Or .text-wrapper {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+}
+body .signup-container .sidebar form {
+  margin-bottom: 50px;
+}
+body .signup-container .sidebar form .profile-photo-box {
+  display: flex;
+  flex-direction: column;
+}
+body .signup-container .sidebar form .Email_box {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+body .signup-container .sidebar form .Psw_box {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+body .signup-container .sidebar form .input {
+  display: flex;
+  height: 50px;
+  width: 348px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: #f2f2f2;
+}
+body .signup-container .sidebar form .input .MuiInputBase-root {
+  width: 348px;
+  height: 50px;
+  border: none;
+}
+body .signup-container .sidebar form .remember-me {
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+  margin-right: 190px;
+}
+body .signup-container .sidebar form .reset_Psw {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body .signup-container .sidebar form .reset_Psw input {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+body .signup-container .sidebar form .reset_Psw p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+body .signup-container .sidebar form .reset_Psw .password-toggle {
+  color: black;
+}
+body .signup-container .sidebar form .btn {
+  height: 50px;
+  width: 348px;
+  color: white;
+  background-color: #605bff;
+}
+body .signup-container .sidebar form .new-account {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+body .signup-container .sidebar .menu-logo {
+  width: 118px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  font-family: "Nunito";
+  font-size: 24px;
+  font-weight: 700;
+}
+body .signup-container .sidebar .menu-logo span .logo {
+  font-size: 80px;
+  border-radius: 50%;
+  background-color: #605bff;
+  color: white;
+  padding: 10px;
+  margin-top: 50px;
+}
+body .signup-container .illustration {
+  flex: 1;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+body .signup-container .illustration .img {
+  width: 600px;
+}/*# sourceMappingURL=Signup.css.map */
